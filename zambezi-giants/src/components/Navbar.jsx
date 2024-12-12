@@ -11,13 +11,13 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex items-center justify-between px-5 md:px-10 shadow-md rounded-sm py-3 ${
+      className={`flex items-center justify-between px-5 md:px-10  rounded-sm py-3 ${
         theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-gray-800"
       } transition-colors`}
     >
       {/* Logo */}
       <div className="flex items-center">
-        <img src={logo} alt="Logo" className="w-auto h-12 md:h-16" />
+        <img src={logo} alt="Logo" className="w-auto h-20 md:h-20" />
       </div>
 
       {/* Search Icon (Small Screens) */}
